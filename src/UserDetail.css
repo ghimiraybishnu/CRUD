@@ -1,0 +1,23 @@
+/* UserDetail.css */
+
+/* Styles for the user detail */
+.user-detail {
+    margin-bottom: 20px;
+  }
+  
+  .user-detail h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-detail p {
+    margin-bottom: 5px;
+  }
+  
+  .user-detail p span {
+    font-weight: bold;
+  }
+  
+  .user-detail p:last-child {
+    margin-bottom: 0;
+  }
+  

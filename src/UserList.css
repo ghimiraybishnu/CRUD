@@ -1,0 +1,61 @@
+/* UserList.css */
+
+/* Styles for the user list container */
+.user-list-container {
+    margin-bottom: 20px;
+  }
+  
+  .user-list-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the user list */
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list-item {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-list-buttons {
+    display: flex;
+  }
+  
+  .user-list-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-list-button:last-child {
+    margin-right: 0;
+  }
+  
+  .user-list-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for colorful design */
+  .view-button {
+    background-color: #28a745; /* Green */
+  }
+  
+  .edit-button {
+    background-color: #ffc107; /* Yellow */
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red */
+  }
+  
